@@ -8,7 +8,7 @@ def test_sorts(sorts):
     print(f"Given: {nums}", f"Sorted: {valid}", sep="\n", end="\n\n")
 
     # Sort the nums
-    for func_name, sort in sorts.items():
+    for (func_name, sort) in sorts.items():
         result = sort(nums.copy())
         print(f">>> {func_name}: {result}", f"{result == valid}", sep=" | ")
 
