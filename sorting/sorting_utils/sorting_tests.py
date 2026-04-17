@@ -1,4 +1,4 @@
-from sorting_utils.random_list_generator import non_unique_1d as randlst
+from sorting.sorting_utils.random_list_generator import non_unique_1d as randlst
 
 
 def test_sorts(sorts):

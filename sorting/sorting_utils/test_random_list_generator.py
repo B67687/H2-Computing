@@ -1,4 +1,9 @@
-from sorting.sorting_utils.randlst_gen import non_unique_1d, non_unique_2d, unique_1d, unique_2d
+from sorting.sorting_utils.random_list_generator import (
+    non_unique_1d,
+    non_unique_2d,
+    unique_1d,
+    unique_2d,
+)
 
 RANDOM_GENERATOR_1D = (
     non_unique_1d,

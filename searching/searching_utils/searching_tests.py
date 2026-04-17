@@ -1,8 +1,8 @@
 ## ~ General Use ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-from searching_utils.random_list_generator import non_unique_1d as randlst
+from searching.searching_utils.random_list_generator import non_unique_1d as randlst
 
 ## ~ Hash Table Search ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-from searching_utils.random_list_generator import randstr
+from searching.searching_utils.random_list_generator import randstr
 from random import randint
 
 # >>> Quicksearching -----------------------------------------------------------------------------------------

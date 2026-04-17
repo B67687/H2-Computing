@@ -1,4 +1,4 @@
-from data_structure_utils.random_list_generator import unique_1d as randlst
+from data_structures.data_structure_utils.random_list_generator import unique_1d as randlst
 from random import randint, sample
 
 
